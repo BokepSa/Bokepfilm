@@ -1,0 +1,59 @@
+html {
+     position: relative;
+     min-height: 100%;
+}
+ body {
+     background-color: #fafafa;
+     color: #888;
+     font-size: 13px;
+     height: 100%;
+}
+ .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+}
+  .videos-list {
+      
+      display: grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      grid-gap:30px;
+  }
+  
+
+  
+  .aaa {
+      width: 100%;
+      background-color: yellow;
+	  display:grid;
+  }
+  
+  ul {
+      list-style: none;
+      
+  }
+  
+  ul li a {
+      
+      float:left;
+      height: 30px;
+      padding: 5px 20px;
+	  background-color:black;
+  }
+  
+  .aman{
+	 width: 100%;
+      background-color: yellow;
+	  display:grid; 
+	  
+  }
+ 
+ 
+ .atas{
+     
+     display:flex;
+     justify-content: space-between;
+     padding: 20px;
+ }
+ 
+ .logo{
+     size:100%
+
+ }
